@@ -5,7 +5,7 @@ internal class Program
 {
     private static SqlConnection connection;
 
-    private static string connectionString = "Server=localhost; Database=Ogrenci_BilgiDb;User Id=SA;Password=reallyStrongPwd123; MultipleActiveResultSets=true; TrustServerCertificate=true;";
+    private static string connectionString = "Server=localhost; Database=Ogrenci_BilgiDb; MultipleActiveResultSets=true; TrustServerCertificate=true;";
 
     private static void Main(string[] args)
     {
